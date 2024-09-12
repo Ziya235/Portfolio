@@ -1,0 +1,217 @@
+.nav-wrapper {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+}
+
+.nav-content {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 30px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: 10px;
+    font-size: 26px;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    color: white;
+}
+
+.icon {
+    width: 27px;
+    height: 25px;
+    color: white;
+}
+
+.nav-content ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.nav-content li {
+    margin: 0 1.5rem;
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-item::before {
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.5s ease;
+}
+
+.menu-item:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.contact-btn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.contact-btn:hover {
+    color: #a993fe;
+    background: #0000;
+    outline: 1.5px solid #a993fe;
+}
+
+.hamburger_icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 4px;
+    border-radius: 0.4rem;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe -0.13%, #7e61e7 99.87%);
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    z-index: 101;
+    /* Ensuring it is on top */
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.hamburger_icon:hover {
+    color: #a993fe;
+    background: #000;
+    border: 1px solid;
+}
+
+.nav-mobile-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 0;
+    background-color: rgb(14, 14, 78);
+    overflow-x: hidden;
+    transition: width 0.5s ease;
+    z-index: 100;
+    display: none;
+
+}
+
+.nav-mobile-list.open {
+    width: 60%;
+}
+
+.nav-mobile-list .logo {
+    margin: 40px;
+    margin-bottom: 60px;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.nav-mobile-list.open .logo {
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.2s;
+}
+
+.nav-mobile-list ul {
+    margin: 40px;
+    list-style: none;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateX(-20px);
+}
+
+.nav-mobile-list.open ul {
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.2s;
+}
+
+.nav-mobile-list ul li {
+    margin-bottom: 50px;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-mobile-list ul li a {
+    font-size: 24px;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.nav-mobile-list .contact-btn {
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(10px);
+}
+
+.nav-mobile-list.open .contact-btn {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
+}
+
+@media (max-width: 815px) {
+    .nav-content ul {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+
+    .nav-mobile-list {
+        display: block;
+    }
+}

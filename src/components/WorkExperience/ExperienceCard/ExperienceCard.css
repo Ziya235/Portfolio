@@ -1,0 +1,56 @@
+.work-experienced-card {
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6551b9;
+    padding: 1.5rem;
+    margin: 0 1rem;
+    
+}
+
+.work-experienced-card h6 {
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+.work-duration {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: 400;
+    background: rgba(103, 81, 186, 0.5);
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.3rem;
+}
+
+.work-experienced-card ul {
+    margin-left: 25px;
+}
+
+.work-experienced-card ul li {
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    position: relative;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    
+}
+
+.work-experienced-card ul li::after {
+    content: " ";
+    width: 0.5rem;
+    height: 0.5rem;
+    border-color: #6751b9;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: -1.3rem;
+    top: 0.35rem;
+}
+
+.work-experienced-card ul li::marker {
+    color: #6551b9;
+    font-size: 20px;
+
+}
