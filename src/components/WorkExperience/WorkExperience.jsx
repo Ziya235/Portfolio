@@ -58,8 +58,6 @@ const WorkExperience = () => {
                     </span>
                 </div>
 
-
-
                 <Slider ref={sliderRef} {...settings} >
 
                     {WORK_EXPERIENCE.map((item) => (
