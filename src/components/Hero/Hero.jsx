@@ -4,8 +4,8 @@ import { FiDownloadCloud } from "react-icons/fi";
 const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Ziyedddin_Resume.pdf";
-    link.download = "Ziyeddein_Resume.pdf";
+    link.href = "/Ziyeddin_resume.pdf";
+    link.download = "Ziyeddin_resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
