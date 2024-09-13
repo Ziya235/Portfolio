@@ -14,8 +14,7 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <>
-    <h1>salam</h1>
-      
+
       <section id="home"></section>
       <Navbar />
       <Hero />
