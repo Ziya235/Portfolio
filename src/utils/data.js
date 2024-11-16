@@ -61,6 +61,18 @@ export const WORK_EXPERIENCE = [
             "JavaScript & Components: You built dynamic, reusable components using JavaScript to improve the functionality of web apps.",
 
             "Team Collaboration: You collaborated with developers and designers, gaining experience in agile workflows and code reviews."]
+    },
+    {
+        title: "Ante Technologies",
+        date: "September 2024 - Present",
+        responsibilities: [
+            "Develop and maintain responsive web applications, ensuring high performance and optimal user experience for clients across industries.",
+
+            "Collaborate with backend developers, product managers, and designers in an Agile environment to deliver high-quality web solutions.",
+
+            "Code Optimization & Debugging: Regularly perform code reviews, debugging, and optimization to ensure the website's functionality, performance, and maintainability.",
+
+            "Version Control & Best Practices: Utilize Git and version control best practices to manage codebase, collaborate effectively, and ensure smooth workflow across teams."]
     }
 ]
 
