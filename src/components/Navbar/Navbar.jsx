@@ -67,7 +67,7 @@ export const Navbar = () => {
                             <a className="menu-item" href='#experience'>Experience</a>
                         </li>
                         <li>
-                            <a className="menu-item" href='#contact'>Contact me</a>
+                            <a className="menu-item" href='#contact'>Contact </a>
                         </li>
 
                         <button className='contact-btn' onClick={() => { }}>  Hire me</button>
