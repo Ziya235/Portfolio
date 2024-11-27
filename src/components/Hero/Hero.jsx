@@ -11,7 +11,15 @@ const Hero = () => {
     document.body.removeChild(link);
   };
 
-  
+  const fixedLocation = { 
+    lat: 40.39522087832711, 
+    lng: 49.94292212951702 
+}; // Fixed Location
+
+const handleViewLargerMap = () => {
+  const { lat, lng } = fixedLocation;
+  window.open(`https://www.google.com/maps?q=${lat},${lng}`, "_blank");
+};
 
   return (
     <>
@@ -31,7 +39,9 @@ const Hero = () => {
           <img src="/assets/cv.jpg" alt="" />
         </div>
       </div>
-      <h1>salam</h1>
+      <button onClick={handleViewLargerMap}>
+        salam
+      </button>
 
 
     </>
