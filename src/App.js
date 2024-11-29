@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import GoogleMap from './components/Map/Map.jsx';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <WorkExperience/>
       <Contact/>
       <Footer/>
+      <GoogleMap/>
 
       
 
