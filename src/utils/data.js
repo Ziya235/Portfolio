@@ -1,89 +1,79 @@
-
 export const SKILLS = [
-    {
-        title: "Frontend",
-        icon: "/assets/development.png",
-        skills: [
-            { skill: "HTML5", percentage: "80%" },
-            { skill: "CSS3", percentage: "90%" },
-            { skill: "Javascript", percentage: "75%" },
-            { skill: "React", percentage: "80%" }
-        ]
-    },
-    {
-        title: "Backend",
-        icon: "/assets/tools.png",
-        skills: [
-            { skill: "Node.js", percentage: "80%" },
-            { skill: "Express", percentage: "65%" }
-        ]
-    },
-    {
-        title: "Tools",
-        icon: "/assets/ux-design.png",
-        skills: [
-            { skill: "Git & Github", percentage: "80%" },
-            { skill: "Visual Studio Code", percentage: "90%" },
-            { skill: "Webpack", percentage: "75%" },
-            { skill: "Responsive Design", percentage: "80%" }
-        ]
-    },
-    {
-        title: "Soft Skills",
-        icon: "/assets/negotiation.png",
-        skills: [
-            { skill: "Problem solving", percentage: "80%" },
-            { skill: "Colloboration", percentage: "90%" },
-            { skill: "Time management", percentage: "75%" }
-
-        ]
-    }
-]
+  {
+    title: "Frontend",
+    icon: "/assets/development.png",
+    skills: [
+      { skill: "HTML5", percentage: "80%" },
+      { skill: "CSS3", percentage: "90%" },
+      { skill: "Javascript", percentage: "75%" },
+      { skill: "React", percentage: "80%" },
+    ],
+  },
+  {
+    title: "Backend",
+    icon: "/assets/tools.png",
+    skills: [
+      { skill: "Node.js", percentage: "80%" },
+      { skill: "Express", percentage: "65%" },
+    ],
+  },
+  {
+    title: "Tools",
+    icon: "/assets/ux-design.png",
+    skills: [
+      { skill: "Git & Github", percentage: "80%" },
+      { skill: "Visual Studio Code", percentage: "90%" },
+      { skill: "Webpack", percentage: "75%" },
+      { skill: "Responsive Design", percentage: "80%" },
+    ],
+  },
+  {
+    title: "Soft Skills",
+    icon: "/assets/negotiation.png",
+    skills: [
+      { skill: "Problem solving", percentage: "80%" },
+      { skill: "Colloboration", percentage: "90%" },
+      { skill: "Time management", percentage: "75%" },
+    ],
+  },
+];
 
 export const WORK_EXPERIENCE = [
-    {
-        title: "ABB Tech Academy",
-        date: "August 2023 - January 2024",
-        responsibilities: ["HTML & CSS: You learned how to structure webpages using HTML and style them with CSS, including layout techniques like Flexbox and Grid.",
-            "Responsive Design: You gained skills in creating websites that adapt to different screen sizes and devices using media queries.",
-            "JavaScript & DOM Manipulation: You learned how to make your websites interactive by manipulating the Document Object Model (DOM) using JavaScript.",
-            "Frameworks and Libraries: You were introduced to front-end libraries like React, learning how to build dynamic components and manage state in your web applications."
-        ]
-    },
-    {
-        title: "Yelo Bank",
-        date: "June 2024 - September 2024",
-        responsibilities: [
-            "Real-World Development: As a front-end intern at a bank, you worked on real-world web applications and user interfaces.",
+  {
+    title: "Ante Technologies",
+    date: "September 2024 - Present",
+    responsibilities: [
+      "Develop and maintain responsive web applications, ensuring high performance and optimal user experience for clients across industries.",
 
-            "Responsive Web Design: You helped create responsive web pages, ensuring they worked smoothly across different devices.",
+      "Collaborate with backend developers, product managers, and designers in an Agile environment to deliver high-quality web solutions.",
 
-            "JavaScript & Components: You built dynamic, reusable components using JavaScript to improve the functionality of web apps.",
+      "Code Optimization & Debugging: Regularly perform code reviews, debugging, and optimization to ensure the website's functionality, performance, and maintainability.",
 
-            "Team Collaboration: You collaborated with developers and designers, gaining experience in agile workflows and code reviews."]
-    },
-    {
-        title: "Ante Technologies",
-        date: "September 2024 - Present",
-        responsibilities: [
-            "Develop and maintain responsive web applications, ensuring high performance and optimal user experience for clients across industries.",
+      "Version Control & Best Practices: Utilize Git and version control best practices to manage codebase, collaborate effectively, and ensure smooth workflow across teams.",
+    ],
+  },
 
-            "Collaborate with backend developers, product managers, and designers in an Agile environment to deliver high-quality web solutions.",
+  {
+    title: "Yelo Bank",
+    date: "June 2024 - September 2024",
+    responsibilities: [
+      "Real-World Development: As a front-end intern at a bank, you worked on real-world web applications and user interfaces.",
 
-            "Code Optimization & Debugging: Regularly perform code reviews, debugging, and optimization to ensure the website's functionality, performance, and maintainability.",
+      "Responsive Web Design: You helped create responsive web pages, ensuring they worked smoothly across different devices.",
 
-            "Version Control & Best Practices: Utilize Git and version control best practices to manage codebase, collaborate effectively, and ensure smooth workflow across teams."]
-    }
-]
+      "JavaScript & Components: You built dynamic, reusable components using JavaScript to improve the functionality of web apps.",
 
-
-
-
-
-
-
-
-
-
-
-
+      "Team Collaboration: You collaborated with developers and designers, gaining experience in agile workflows and code reviews.",
+    ],
+  },
+  {
+    title: "ABB Tech Academy",
+    date: "August 2023 - January 2024",
+    responsibilities: [
+      "HTML & CSS: You learned how to structure webpages using HTML and style them with CSS, including layout techniques like Flexbox and Grid.",
+      "Responsive Design: You gained skills in creating websites that adapt to different screen sizes and devices using media queries.",
+      "JavaScript & DOM Manipulation: You learned how to make your websites interactive by manipulating the Document Object Model (DOM) using JavaScript.",
+      "Frameworks and Libraries: You were introduced to front-end libraries like React, learning how to build dynamic components and manage state in your web applications.",
+    ],
+  },
+];
